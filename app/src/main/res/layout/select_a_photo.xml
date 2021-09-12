@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+>
+
+    <Button
+        android:id="@+id/gallery_select_photo"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto"
+        android:text="@string/gallery" />
+
+    <Button
+        android:id="@+id/take_a_photo"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto"
+        android:text="@string/take_a_picture" />
+</LinearLayout>
